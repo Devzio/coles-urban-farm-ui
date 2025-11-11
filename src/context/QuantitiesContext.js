@@ -22,8 +22,13 @@ export function QuantitiesProvider({ children }) {
     setQuantities((q) => ({ ...q, [id]: value }));
   }
 
+  function resetAll() {
+    // reset stored quantities to an empty object (treated as zero elsewhere)
+    setQuantities({});
+  }
+
   return (
-    <QuantitiesContext.Provider value={{ quantities, setQuantity }}>
+    <QuantitiesContext.Provider value={{ quantities, setQuantity, resetAll }}>
       {children}
     </QuantitiesContext.Provider>
   );
