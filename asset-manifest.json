@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/coles-urban-farm-ui/static/css/main.ecd372eb.css",
+    "main.js": "/coles-urban-farm-ui/static/js/main.65bd08b5.js",
+    "static/js/453.974efb9e.chunk.js": "/coles-urban-farm-ui/static/js/453.974efb9e.chunk.js",
+    "index.html": "/coles-urban-farm-ui/index.html",
+    "main.ecd372eb.css.map": "/coles-urban-farm-ui/static/css/main.ecd372eb.css.map",
+    "main.65bd08b5.js.map": "/coles-urban-farm-ui/static/js/main.65bd08b5.js.map",
+    "453.974efb9e.chunk.js.map": "/coles-urban-farm-ui/static/js/453.974efb9e.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.ecd372eb.css",
+    "static/js/main.65bd08b5.js"
+  ]
+}
