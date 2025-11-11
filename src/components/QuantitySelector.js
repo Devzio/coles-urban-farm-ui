@@ -27,7 +27,7 @@ export default function QuantitySelector() {
   }
 
   return (
-    <div className="min-h-screen bg-gray-100 flex items-center justify-center p-6">
+    <div className="min-h-screen bg-gradient-to-b from-black via-gray-800 to-black flex items-center justify-center p-6">
       <div className="w-full max-w-md bg-white rounded-xl shadow-md p-8">
         <div className="flex items-center justify-between mb-6">
           <button

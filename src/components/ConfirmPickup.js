@@ -11,7 +11,7 @@ export default function ConfirmPickup() {
   }, []);
 
   return (
-    <div className="min-h-screen flex items-center justify-center bg-gray-100 p-6">
+    <div className="min-h-screen flex items-center justify-center bg-gradient-to-b from-black via-gray-800 to-black p-6">
       <div className="bg-white rounded-xl shadow-md p-10 flex flex-col items-center gap-6">
         <svg
           className={`w-36 h-36 ${done ? 'text-green-600' : 'text-gray-400'}`}
